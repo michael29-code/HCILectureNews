@@ -1,7 +1,74 @@
 /* ess modifcation bs frm */
+::-webkit-scrollbar{
+  display: none;
+}
 
+a{
+  text-decoration: none;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ============================================================================================================================ */
+/* LOGIN */
+/* ============================================================================================================================ */
 .rounded-login-image
 {
     border-radius: 25px 0 25px 0;
+}
+
+/* ============================================================================================================================ */
+/* NAV BAR */
+/* ============================================================================================================================ */
+.navbar{
+    width: 100%;
+    height: auto;
+}
+
+
+/* ============================================================================================================================ */
+/* HOME */
+/* ============================================================================================================================ */
+.home-container{
+    width: 100%;
+    height: auto;
+    padding: 0vw 0vw;
+    background-color: aqua;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0vw 3vw;
+    z-index: -1;
+}
+
+.first-view-image{
+    background-color: tomato;
+    width: 90%;
+    height: 40vh;
+}
+
+.first-view-description{
+    background-color: blue;
+    width : 90%;
+    height: 10vh;
+}
+
+h3{
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+
+body-default{
+    font-family: 'Inter', sans-serif;
+    font-size: small;
+    text-align: center;
 }
