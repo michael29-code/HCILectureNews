@@ -72,3 +72,8 @@ body-default{
     font-size: small;
     text-align: center;
 }
+.menu
+{
+    text-decoration: none;
+    color: black;
+}
