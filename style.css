@@ -42,7 +42,7 @@ a{
     width: 100%;
     height: auto;
     padding: 0vw 0vw;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ a{
     position: relative;
     width: 100%;
     height: auto;
-    background-color: chocolate ;
+    /* background-color: chocolate ; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -119,13 +119,13 @@ body-default{
     justify-content: center;
     align-items: left;
     gap: 2vw;
+    margin-bottom: 10vw;
 }
 
 h4{
     font-family: 'Inter', sans-serif;
     font-size: 1.4rem;
     font-weight: 800;
-    text-align: left;
 }
 
 .most-popular-container1{
@@ -139,7 +139,7 @@ h4{
     width: 22vw;
     height: 200px;
     border-radius: 1vw;
-    background-color: lightgray;
+    background-color: gray;
     padding: 1vw;
     display: flex;
     align-items: end;
@@ -161,8 +161,49 @@ h5{
     align-items: center;
     justify-content: left;
 }
+
 .text-container h5{
     text-align: left;
 }
 
+.the-latest{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    gap: 3vw;
+}
+
+.the-latest-container-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    gap: 3vw;
+}
+
+.the-latest-container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.the-latest-image{
+    border-radius: 1vw;
+    width: 100%;
+    height: 17vh;
+    background-color: gray;
+}
+
+.the-latest-description-container{
+    width: 100%;
+    height: 17vh;
+    /* background-color: black; */
+    padding: 1vw;
+}
 
