@@ -380,6 +380,25 @@ caption-default{
     gap: 3vw;
 }
 
+.load-more-button-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
 
+.load-more-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 1vw;
+    background-color: gray;
+}
+
+.load-more-button body-default{
+    color: white;
+}
 
 
