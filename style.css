@@ -72,6 +72,8 @@ a{
     width: 90%;
     height: 40vh;
     border-radius: 1vw;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .first-view-description{
@@ -132,7 +134,8 @@ h4{
     display: flex;
     width: 100%;
     height: auto;
-    justify-content: space-between;    
+    justify-content: space-between;
+        
 }
 
 .most-popular-container1 .image-container{
@@ -143,6 +146,8 @@ h4{
     padding: 1vw;
     display: flex;
     align-items: end;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 h6{
@@ -199,6 +204,8 @@ h6{
     width: 100%;
     height: 17vh;
     background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .the-latest-description-container{
@@ -260,6 +267,8 @@ caption-italic{
     padding: 1vw;
     display: flex;
     align-items: end;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .most-search-container .description-container{
@@ -319,6 +328,8 @@ caption-default{
     padding: 1vw;
     display: flex;
     align-items: end;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .categories-description{
@@ -342,6 +353,7 @@ caption-default{
     padding: 0vw 3vw;
     z-index: -1;
     gap: 8vw;
+    
 }
 
 .top-news{
@@ -355,6 +367,8 @@ caption-default{
     height: 70vh;
     background-color: grey;
     border-radius: 1vw;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
 
 }
 
@@ -362,6 +376,7 @@ caption-default{
     display: flex;
     justify-content: space-between;
     gap: 3vw;
+    
 }
 
 .image-container{
@@ -372,6 +387,8 @@ caption-default{
     padding: 1vw;
     display: flex;
     align-items: end;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .articles{
@@ -385,6 +402,7 @@ caption-default{
     height: auto;
     display: flex;
     justify-content: center;
+    
 }
 
 .load-more-button{
@@ -395,6 +413,7 @@ caption-default{
     height: 5vh;
     border-radius: 1vw;
     background-color: gray;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 .load-more-button body-default{
