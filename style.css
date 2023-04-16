@@ -98,6 +98,7 @@ a{
 {
     width: 2.5em;
     height: 2.5em;
+    position: relative;
     /* background-color: black; */
 }
 
@@ -129,6 +130,28 @@ a{
     font-size: 0.8rem;
 }
 
+.container-profile-menu
+{
+    background-color: white;
+    right: 6%;
+    top: 20%;
+    border-radius: 9px;
+    padding: 20px;
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 35%;
+    width: 10%;
+    filter: drop-shadow(6px 6px 6px grey);
+}
+.container-profile-menu .profile-menu
+{   
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
 .sidebar-container
 {
    width: 100%;
@@ -140,7 +163,10 @@ a{
 }
 .sidebar-content
 {
-    padding: 50px;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     width: 20%;
     height: 100%;
     background-color: white;
@@ -150,7 +176,7 @@ a{
 {
     width: 80%;
     height: 100%;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(3px);
 }
 .back-container
 {
