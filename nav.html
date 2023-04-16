@@ -7,18 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nav</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/a904922ce1.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-    <div class="navigation">
-        <div class="logo-container"></div>
+    <nav class="navigation" id="navigation">
+        <div class="logo-container">
+            <div class="logo"></div>
+        </div>
         <div class="menu-search-container">
-            <div class="container-hamburger">
-
+            <div class="container-hamburger" id="hamburger">
+                <i class="fa-solid fa-bars fa-2xl"></i>
             </div>
-            <input type="text">
+            <input name="search-bar" class="search-bar" type="text" placeholder="search">
             <div class="container-login-profile">
-                
+                <i class="fa-solid fa-user fa-2xl"></i>
             </div>
         </div>
         <div class="navigation-container">
@@ -35,7 +47,39 @@
                 <a href="#" class="menu">More</a>
             </div>
         </div>
+    </nav>
+    <div class="sidebar-container" id="sidebarContainer">
+        <div class="sidebar-content">
+            <div class="back-container" id="backbtn">
+                <i class="fa-solid fa-arrow-left fa-lg"></i>
+            </div>
+            <div class="profile-container">
+                <div class="profile-content">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <p>Michael</p>
+            </div>
+            <div class="links-container">
+                <a href="#" class="menu-sidebar">Home</a>
+                <a href="#" class="menu-sidebar">Politics</a>
+                <a href="#" class="menu-sidebar">Busines</a>
+                <a href="#" class="menu-sidebar">Health</a>
+                <a href="#" class="menu-sidebar">Entertainment</a>
+                <a href="#" class="menu-sidebar">Tech</a>
+                <a href="#" class="menu-sidebar">Style</a>
+                <a href="#" class="menu-sidebar">Travel</a>
+                <a href="#" class="menu-sidebar">Sport</a>
+                <a href="#" class="menu-sidebar">More</a>
+            </div>
+            <div class="footer-sidebar">
+                <p>logout</p>
+                <p> <b>Hak Cipta c 2023</b></p>
+            </div>
+        </div>
+        <div class="sidebar-backgroundblur" id="blurcontent"></div>
     </div>
+    <div class="content-blank"></div>
+    <script src="/script.js"></script>
 </body>
 
 </html>

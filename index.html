@@ -18,11 +18,63 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="navbar">
-        <a href="/login.html">login</a>
-        <a href="/register.html">register</a>
-        <a href="/history.html">History</a>
-        <a href="/categories.html">Categories</a>
+    <nav class="navigation" id="navigation">
+        <div class="logo-container">
+            <div class="logo"></div>
+        </div>
+        <div class="menu-search-container">
+            <div class="container-hamburger" id="hamburger">
+                <i class="fa-solid fa-bars fa-2xl"></i>
+            </div>
+            <input name="search-bar" class="search-bar" type="text" placeholder="search">
+            <div class="container-login-profile">
+                <i class="fa-solid fa-user fa-2xl"></i>
+            </div>
+        </div>
+        <div class="navigation-container">
+            <div class="row-links">
+                <a href="#" class="menu">Home</a>
+                <a href="#" class="menu">Politics</a>
+                <a href="#" class="menu">Busines</a>
+                <a href="#" class="menu">Health</a>
+                <a href="#" class="menu">Entertainment</a>
+                <a href="#" class="menu">Tech</a>
+                <a href="#" class="menu">Style</a>
+                <a href="#" class="menu">Travel</a>
+                <a href="#" class="menu">Sport</a>
+                <a href="#" class="menu">More</a>
+            </div>
+        </div>
+    </nav>
+    <div class="sidebar-container" id="sidebarContainer">
+        <div class="sidebar-content">
+            <div class="back-container" id="backbtn">
+                <i class="fa-solid fa-arrow-left fa-lg"></i>
+            </div>
+            <div class="profile-container">
+                <div class="profile-content">
+                    <i class="fa-solid fa-user fa-2xl"></i>
+                </div>
+                <p>Michael</p>
+            </div>
+            <div class="links-container">
+                <a href="#" class="menu-sidebar">Home</a>
+                <a href="#" class="menu-sidebar">Politics</a>
+                <a href="#" class="menu-sidebar">Busines</a>
+                <a href="#" class="menu-sidebar">Health</a>
+                <a href="#" class="menu-sidebar">Entertainment</a>
+                <a href="#" class="menu-sidebar">Tech</a>
+                <a href="#" class="menu-sidebar">Style</a>
+                <a href="#" class="menu-sidebar">Travel</a>
+                <a href="#" class="menu-sidebar">Sport</a>
+                <a href="#" class="menu-sidebar">More</a>
+            </div>
+            <div class="footer-sidebar">
+                <p>logout</p>
+                <p> <b>Hak Cipta c 2023</b></p>
+            </div>
+        </div>
+        <div class="sidebar-backgroundblur" id="blurcontent"></div>
     </div>
 
     <div class="home-container">
@@ -262,5 +314,6 @@
             
             
         </div>
+        <script src="script.js"></script>
     </body>
     </html>

@@ -36,6 +36,183 @@ a{
 }
 
 /* ============================================================================================================================ */
+
+/*navbar 2*/
+
+
+.navigation
+{
+    width: 100%;
+    height: 15rem;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+}
+
+.logo-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.logo
+{
+    width: 5em;
+    height: 5em;
+    /* background-color: black; */
+    background-image: url('ass/logo-all.svg');
+    background-size: contain;
+}
+
+
+.menu-search-container
+{
+    display: flex;
+    justify-content: space-around;
+    /* background-color: cadetblue; */
+    padding-top: 10px;
+}
+
+.search-bar
+{
+    width: 70%;
+    outline: 0;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.container-hamburger
+{
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: black; */
+}
+
+.container-login-profile
+{
+    width: 2.5em;
+    height: 2.5em;
+    /* background-color: black; */
+}
+
+.navigation-container
+{
+    padding-top: 0.5em;
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row-links
+{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    border: 0;
+    border-bottom: 1px solid black;
+    padding: 15px;
+    height: 100%;
+    
+}
+
+.menu
+{
+    font-size: 0.8rem;
+}
+
+.sidebar-container
+{
+   width: 100%;
+   height: 100vh;
+   position: fixed;
+   top: 0; 
+   z-index: 1;
+   display: none;
+}
+.sidebar-content
+{
+    padding: 50px;
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+
+.sidebar-backgroundblur
+{
+    width: 80%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+}
+.back-container
+{
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.profile-container
+{
+    display: flex;
+    width: 100%;
+}
+.profile-content
+{
+    width: 20%;
+}
+
+
+.links-container
+{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+}
+.links-container a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-sidebar
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.content-blank
+{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#hamburger:hover
+{
+    cursor: pointer;
+}
+#backbtn:hover
+{
+    cursor: pointer;
+}
+
+
+/*navbar 2*/
+
+
 /* HOME */
 /* ============================================================================================================================ */
 .home-container{
@@ -62,6 +239,7 @@ a{
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    margin-top: 17vw;
     margin-bottom: 10vw;
 }
 
