@@ -297,7 +297,11 @@ a{
 
 h3{
     font-family: 'Inter', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.5rem; 
+}
+
+.font-weight-800
+{
     font-weight: 800;
 }
 
@@ -359,9 +363,16 @@ h4{
 h6{
     font-family: 'Inter', sans-serif;
     font-size: 1rem;
+     
+}
+.ligther-text
+{
     font-weight: lighter;
+}
+
+.text-white
+{
     color: white;
-    
 }
 
 .text-container{
@@ -488,9 +499,8 @@ h6{
 h5{
     font-family: 'Inter', sans-serif;
     font-size: 1.2rem;
-    color: black;
-    font-weight: bold;
 }
+.text-black
 
 .caption-default p{
     font-family: 'Inter', sans-serif;
@@ -663,6 +673,9 @@ h5{
 
 h2{
     font-family: 'Inter', sans-serif;
+}
+.bolder-text
+{
     font-weight: bold;
 }
 
@@ -746,3 +759,116 @@ h2{
     font-style: italic;
     margin: 0;
 }
+
+
+/* news detail coment section */
+.container-comment
+{
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.comment-section
+{
+    width: 100%;
+    height: 100%;
+    color: black!important;
+}
+
+.head-comment-section
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.head-line-comment
+{
+    padding: 2em;
+    
+}
+.btn-comment-login
+{
+    padding: 2em;
+    
+}
+
+.coment-input-section
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.img-input-comment
+{
+    width: 5em;
+    height: 5em;
+    background-color: grey;
+    border-radius: 1em;
+}
+.input-comment
+{
+    width: 90%;
+    border-radius: 1em;
+    border: 1px solid grey;
+}
+
+.input-comment input
+{
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+.navigation-comment
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.left-navigation-comment
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-navigation-comment
+{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.already-coment-input-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.already-img-input-comment{
+    width: 5em;
+    height: 5em;
+    background-color: grey;
+    border-radius: 1em;
+}
+
+.already-input-comment {
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 1em;
+}
+
+.already-input-comment input {
+    border: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+
+
+
+/* news detail coment section */
