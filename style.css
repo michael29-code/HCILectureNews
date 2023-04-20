@@ -679,11 +679,18 @@
     z-index: -1;
 }
 
+.saved-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 3vw;
+}
+
 
 .saved-container{
     width: 100%;
       height: auto;
-      padding: 0vw 3vw;
+      /* padding: 0vw 3vw; */
       /* background-color: aqua; */
       display: flex;
       flex-direction: column;
