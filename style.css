@@ -501,6 +501,9 @@
       font-size: 1.2rem;
   }
   .text-black
+  {
+    color: black;
+  }
   
   .caption-default p{
       font-family: 'Inter', sans-serif;
@@ -1046,7 +1049,6 @@ input:focus{
 }
 
 #date{
-    position: relative;
     justify-content: right;
     border: 0;
     border-radius: 5px;
@@ -1057,7 +1059,6 @@ input:focus{
 }
 
 #author{
-    position: relative;
     justify-content: right;
     border: 0;
     border-radius: 5px;
@@ -1092,7 +1093,6 @@ input:focus{
 }
 
 #subtext{
-    position: relative;
     top: 25%;
     width: 160%;
 }
@@ -1167,7 +1167,7 @@ input:focus{
     position: sticky;
     top: 10%;
     background-color: #ffffff;
-    z-index: 100;
+    z-index: 0;
     height: 60px;
     width: 5%;
 }

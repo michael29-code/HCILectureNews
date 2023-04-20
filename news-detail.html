@@ -51,8 +51,8 @@
         <a href="" class="profile-menu">Settings</a>
         <a href="history.html" class="profile-menu">History</a>
         <a href="save-page.html" class="profile-menu">Saved Page</a>
-        <a href="" class="profile-menu">Download</a>
-        <a href="" class="profile-menu">Logout</a>
+        <a href="Download.html" class="profile-menu">Download</a>
+        <a href="login.html" class="profile-menu">Logout</a>
     </div>
     <div class="sidebar-container" id="sidebarContainer">
         <div class="sidebar-content">
@@ -88,7 +88,7 @@
     <!-- endofnavigation -->
 
     <div class="row position-relative">
-        <div class="col mx-5 px-5 position-fixed ">
+        <div class="col mx-5 px-5 position-absolute z-n1">
             <div class="mx-5 py-5">
                 <div class="row">
                     <div class="col-2 my-2 p-2">
@@ -195,14 +195,16 @@
                     </div>
                     <div class="row">
                         <div class="col text-center p-5">
-                            <i class="fa-solid fa-arrow-down-long fa-lg"></i>
+                            <a href="/newsDetail.html" class="text-black">
+                                <i class="fa-solid fa-arrow-down-long fa-lg"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container pb-5">
         <div class="comment-section">
             <div class="head-comment-section">
                 <div class="head-line-comment">
@@ -250,6 +252,62 @@
             </div>
         </div>
     </div>
+    <!-- footer -->
+    
+    <div class="Footer-container">
+        <div class="topFooter">
+            <div class="word"><b><a href="/categories.html" class="text-black menu">Word</a></b></div>
+            <div class="politics"><b><a href="/categories.html" class="text-black menu">Politics</a></b></div>
+            <div class="businnes"><b><a href="/categories.html" class="text-black menu">Businnes</a></b></div>
+            <div class="health"><b><a href="/categories.html" class="text-black menu">Health</a></b></div>
+            <div class="entertainment"><b><a href="/categories.html" class="text-black menu">Entertainment</a></b></div>
+            <div class="tech"><b><a href="/categories.html" class="text-black menu">Tech</a></b></div>
+            <div class="style"><b><a href="/categories.html" class="text-black menu">Style</a></b></div>
+            <div class="travel"><b><a href="/categories.html" class="text-black menu">Travel</a></b></div>
+            <div class="sport"><b><a href="/categories.html" class="text-black menu">Sport</a></b></div>
+            <div class="more"><b><a href="/categories.html" class="text-black menu">More</a></b></div>
+        </div>
+    
+        <div class="mainFooter">
+            <div id="rectangleFooter">
+                <input type="text" id="search" class="inputSearch" placeholder="Search">
+            </div>
+            <div class="sectiontext">
+                <a href="ContactUs.html" class="text-black">Contact Us</a>
+            </div>
+            <div class="section">
+                <div class="sectiontext">Term of Use</div>
+                <div class="sectiontext">Privacy Policy</div>
+                <div class="sectiontext">Accessibility & CC</div>
+                <div class="sectiontext">AdChoices</div>
+            </div>
+            <div class="section">
+                <div class="sectiontext">About Us</div>
+                <div class="sectiontext">Modern Stavery Act Statement</div>
+                <div class="sectiontext">Advertise with Us</div>
+                <div class="sectiontext">Store</div>
+            </div>
+            <div class="section">
+                <div class="sectiontext">Newsletters</div>
+                <div class="sectiontext">Transcripts</div>
+                <div class="sectiontext">License Footage</div>
+                <div class="sectiontext">News Source</div>
+                <div class="sectiontext">Sitemap</div>
+            </div>
+            <div class="section">
+                <div class="ig">
+                    <img src="Asset/instagram.svg" alt="">
+                </div>
+                <div class="fb">
+                    <img src="Asset/facebook.svg" alt="">
+                </div>
+                <div class="yt">
+                    <img src="Asset/youtube.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
 
     <script src="script.js"></script>
 </body>
