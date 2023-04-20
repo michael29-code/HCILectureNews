@@ -1125,7 +1125,7 @@ input:focus{
     border-radius: 20px;
 }
 
-.changePage{
+/* .changePage{
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -1137,9 +1137,9 @@ input:focus{
     color: white;
     background-color: black;
     border-radius: 5px;
-}
+} */
 
-.whiteBox{
+/* .whiteBox{
     outline: 1.5px solid black;
     border-radius: 5px;
 }
@@ -1149,7 +1149,7 @@ input:focus{
     padding-bottom: 1px;
     padding-left: 8px;
     padding-right: 8px;
-}
+} */
 
 /* ============================== */
 /* News Detail */
