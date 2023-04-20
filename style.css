@@ -252,7 +252,7 @@
       justify-content: center;
       align-items: center;
       
-      padding: 0vw 3vw;
+      /* padding: 0vw 3vw; */
       z-index: -1;
   }
   
@@ -332,6 +332,7 @@
       align-items: left;
       gap: 2vw;
       margin-bottom: 10vw;
+      padding: 0 3vw;
   }
   
   h4{
@@ -396,6 +397,7 @@
       justify-content: center;
       align-items: left;
       gap: 3vw;
+      padding: 0 3vw;
       margin-bottom: 10vw;
   }
   
@@ -459,6 +461,7 @@
       display: flex;
       flex-direction: column;
       gap: 3vw;
+      padding: 0 3vw;
       margin-bottom: 10vw;
   }
   
@@ -522,6 +525,7 @@
       display: flex;
       flex-direction: column;
       gap: 3vw;
+      padding: 0 3vw;
       margin-bottom: 10vw;
   }
   
