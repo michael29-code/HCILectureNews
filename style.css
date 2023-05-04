@@ -353,7 +353,9 @@
       width: 22vw;
       height: 200px;
       border-radius: 1vw;
-      background-color: gray;
+      /* background-color: gray; */
+      background-image: url("https://images.unsplash.com/photo-1680926407811-b691b7c55b99?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4MjM0Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300");;
+      background-size: cover;
       padding: 1vw;
       display: flex;
       align-items: end;
@@ -422,7 +424,9 @@
       border-radius: 1vw;
       width: 100%;
       height: 17vh;
-      background-color: gray;
+      /* background-color: gray; */
+      background-image: url(https://plus.unsplash.com/premium_photo-1682470058354-9ab742c769e1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4MjgyNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+      background-size: cover;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
   }
@@ -486,7 +490,9 @@
       width: 100%;
       height: 170px;
       border-radius: 1vw;
-      background-color: gray;
+      /* background-color: gray; */
+      background-image: url(https://images.unsplash.com/photo-1680925697894-106c453c6e9c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4Mjg2Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);;
+      background-size: cover;
       padding: 1vw;
       display: flex;
       align-items: end;
@@ -551,7 +557,9 @@
       width: 100%;
       height: 170px;
       border-radius: 1vw;
-      background-color: gray;
+      /* background-color: gray; */
+      background-image: url("https://plus.unsplash.com/premium_photo-1675074446664-26dea21a0e4e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4Mjk0Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300");;
+      background-size: cover;
       padding: 1vw;
       display: flex;
       align-items: end;
@@ -600,7 +608,9 @@
       
       width: 100%;
       height: 70vh;
-      background-color: grey;
+      /* background-color: grey; */
+      background-image: url(https://images.unsplash.com/photo-1682547092015-59ca729904c3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4MzE2Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+      background-size: cover;
       border-radius: 1vw;
       /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   
@@ -618,7 +628,9 @@
       width: 100%;
       height: 200px;
       border-radius: 1vw;
-      background-color: gray;
+      /* background-color: gray; */
+      background-image: url(https://images.unsplash.com/photo-1682547094948-1d764fc412ce?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4MzE1OQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+      background-size: cover;
       padding: 1vw;
       display: flex;
       align-items: end;
@@ -687,6 +699,7 @@
 }
 
 
+
 .saved-container{
     width: 100%;
       height: auto;
@@ -723,7 +736,9 @@
       
   }
   .saved-page-image{
-      background-color: gray;
+      /* background-color: gray; */
+      background-image: url(https://images.unsplash.com/photo-1680169295285-7e9d7a3561fe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4Mzc4MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+      background-size: cover;
       width: 19vw;
       height: 170px;
       border-radius: 1vw;
@@ -771,12 +786,21 @@
   }
   
   .save-icon{
-      background-color: gray;
+      /* background-color: gray; */
+      /* background-image: url(https://images.unsplash.com/photo-1680169295285-7e9d7a3561fe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4Mzc4MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300); */
+      background-size: cover;
       width: 100vw;
       height: 25%;
+      width: 2.5em;
+      height: 2.5em;
+      position: relative;
   
   }
-  
+
+  .save-icon i{
+    size: 3px;
+  }
+
   .saved-page-title h5{
       text-align: justify;
   }
