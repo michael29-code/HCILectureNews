@@ -1172,6 +1172,8 @@ input:focus{
 }
 
 .rectangle {
+    background-image: url(https://images.unsplash.com/photo-1682018272345-665b5292056d?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4NTU3Nw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+    background-size: cover ;
     height: 240px;
     width:  350px;
     background-color: gray;
@@ -1266,6 +1268,8 @@ input:focus{
 }
 
 .rectJumbo{
+    background-image: url(https://plus.unsplash.com/premium_photo-1677442691344-3b004e60de51?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4NTcyMQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+    background-size: cover;
     position: relative;
     top: 100%;
     /* margin: 5%; */
@@ -1294,6 +1298,8 @@ input:focus{
 }
 
 .rectScrollJumbo{
+    background-image: url(https://images.unsplash.com/photo-1681105208666-104e18ea4334?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4NTc3Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+    background-size: cover;
     width: 100%;
     height: 60vh;
     background-color: gray;
@@ -1316,6 +1322,8 @@ input:focus{
 }
 
 .rectScrollBottom{
+    background-image: url(https://images.unsplash.com/photo-1680954037252-e541617d3e6c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4NTgyNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+    background-size: cover;
     width: 100%;
     height: 50vh;
     background-color: gray;
@@ -1343,6 +1351,8 @@ input:focus{
 }
 
 .rectbottom{
+    background-image: url(https://images.unsplash.com/photo-1682133114083-81319fc857fe?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=203&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTY4MzE4NTg3Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=300);
+    background-size: cover;
     width: 100%;
     height: 25vh;
     background-color: gray;
